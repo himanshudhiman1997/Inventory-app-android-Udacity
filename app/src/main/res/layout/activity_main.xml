@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.example.android.inventory_app.MainActivity">
+    <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+    </ListView>
+    <TextView
+            android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No data found. \n Click the add button to enter new data."
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal" />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/addData"
+                android:background="#ecc6d9"
+                android:text="Add Data"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/deleteData"
+                android:background="#ecc6d9"
+                android:text="Delete Data"
+                android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

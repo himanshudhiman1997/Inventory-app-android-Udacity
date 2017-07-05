@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Inventory_App</string>
+    <string name="new_product">Add Product</string>
+    <string name="edit_product">Edit a product</string>
+    <string name="insert_product_failed">Error but product is saved.</string>
+    <string name="insert_product_successfully">Product saved successfully</string>
+    <string name="update_product_failed">Error but product is updated.</string>
+    <string name="update_product_successfully">Product updated successfully</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="unsaved_changes_dialog">Discard your changes and quit the editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_edit">Keep Editing</string>
+    <string name="delete_product_successfully">Product is deleted</string>
+    <string name="delete_product_failed">Error but product is deleted</string>
+    <string name="delete_product_dialog">Delete the selected product?</string>
+    <string name="delete_dialog">Delete this product?</string>
+</resources>
